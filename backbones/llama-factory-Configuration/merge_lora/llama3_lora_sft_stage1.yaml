@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: Llama3-8B-Chinese-Chat
+adapter_name_or_path: saves/llama3-8b/lora/sft/stage1
+template: default
+finetuning_type: lora
+
+### export
+export_dir: models/llama3_lora_sft_stage1
+export_size: 2
+export_device: gpu
+export_legacy_format: false

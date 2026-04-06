@@ -1,0 +1,9 @@
+nltk
+numpy
+torch==1.8.1
+transformers==4.10.0
+tensorboardX==1.8
+pytorch-ignite==0.2.1
+tqdm
+SentencePiece
+protobuf==3.20.1
